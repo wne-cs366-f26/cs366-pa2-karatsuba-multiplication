@@ -4,9 +4,14 @@ Starter project for Programming Assignment 02. Implement recursive Karatsuba mul
 
 The complete assignment handout and due date are posted on Kodiak. Kodiak is authoritative if this README and the handout ever differ.
 
-## Provided algorithm reference
+## Provided algorithm references
 
-Open `Karatsuba Trace Handout.pdf` before implementing the recursive helper. It walks through the split, three recursive products, and recombination for `3412 × 1523`.
+The repository includes two references:
+
+- `Karatsuba Algorithm.pdf` summarizes the algorithm, notation, base case, recursive products, and recombination formula.
+- `Karatsuba Trace Handout.pdf` applies that structure to `3412 × 1523` and shows the recursive call tree.
+
+Read the algorithm sheet first, then use the trace handout while implementing the recursive helper.
 
 Use the trace as an implementation map:
 
@@ -37,7 +42,7 @@ On Windows, use `gradlew.bat test` and `gradlew.bat run`.
 - `src/main/java/edu/wne/cs366/KaratsubaMultiplier.java` — implement the required public method and private helpers.
 - `src/test/java/edu/wne/cs366/StudentKaratsubaTest.java` — add at least six focused tests.
 
-Keep `Karatsuba Trace Handout.pdf` in the repository so it remains available while you work.
+Keep both provided PDFs in the repository so they remain available while you work.
 
 Do not change the package, class name, public method signature, Gradle configuration, or supplied tests. The supplied tests cover representative behavior but are not a complete specification.
 
